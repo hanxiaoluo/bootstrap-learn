@@ -1,0 +1,79 @@
+body {
+    background: url("../images/login-background1.jpg");
+    animation-name: myfirst;
+    animation-duration: 12s;
+    /*变换时间*/
+    animation-delay: 2s;
+    /*动画开始时间*/
+    animation-iteration-count: infinite;
+    /*下一周期循环播放*/
+    animation-play-state: running;
+    /*动画开始运行*/
+}
+
+@keyframes myfirst {
+    0% {
+        background: url("../images/login-background2.jpg");
+    }
+    34% {
+        background: url("../images/login-background3.jpg");
+    }
+    67% {
+        background: url("../images/login-background4.jpg");
+    }
+    100% {
+        background: url("../images/login-background5.jpg");
+    }
+}
+
+.login-title {
+    text-align: center;
+}
+
+#login_form {
+    background: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    margin: 220px auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*阴影*/
+
+.fa {
+    display: inline-block;
+    top: 35px;
+    left: 6px;
+    position: relative;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding-left: 30px;
+}
+
+.second-group {
+    margin-bottom: 10px;
+}
+
+.third-group {
+    margin-bottom: 5px;
+}
+
+.checkbox {
+    padding-left: 20px;
+}
+
+a {
+    display: block;
+    width: 68px;
+    font: 12px;
+    padding-right: 10px;
+}
+
+.btn {
+    width: 320px;
+}

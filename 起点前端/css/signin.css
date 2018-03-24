@@ -1,0 +1,18 @@
+body {
+    background: url("../images/login-background1.jpg") no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.5);
+    width: 530px;
+    margin: 100px auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-inline {
+    padding-bottom: 20px;
+}
